@@ -1,0 +1,53 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.background {
+    background-image: url('background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers content vertically */
+}
+
+.title-container {
+    position: relative;
+    top: -40%; /* Moves the title up from the center */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.title {
+    text-align: center;
+    font-size: 3em;
+}
+
+.black-text, .red-text {
+    text-shadow: 2px 2px 4px #ffffff;
+}
+
+.black-text {
+    color: black;
+}
+
+.red-text {
+    color: red;
+}
+
+.bottom-text {
+    position: absolute; /* Absolute positioning */
+    bottom: 7%; /* Distance from the bottom */
+    width: 100%; /* Full width */
+    text-align: center;
+    font-size: 1.8em;
+    color: black;
+    text-shadow: 2px 2px 4px #ffffff;
+}
