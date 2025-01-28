@@ -1,20 +1,175 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Infection Alert</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Gonorreia Club</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto Mono', monospace;
+            background-color: #000;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            overflow-x: hidden;
+        }
+
+        header {
+            width: 100%;
+            text-align: center;
+            padding: 2rem 0;
+            position: relative;
+            overflow: hidden;
+            border-bottom: 2px solid #ff00ff;
+        }
+
+        header h2 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            text-shadow: 0 0 10px #ff00ff;
+        }
+
+        footer {
+            width: 100%;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: auto;
+            border-top: 2px solid #ff00ff;
+        }
+
+        .container {
+            background: linear-gradient(135deg, #1a1a1a, #333);
+            width: 90%;
+            max-width: 900px;
+            border: 2px solid #ff00ff;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(255, 0, 255, 0.3);
+            padding: 2rem;
+            margin: 3rem auto;
+            text-align: center;
+            position: relative;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #ff00ff;
+            margin-bottom: 1.5rem;
+            text-shadow: 0 0 10px #ff00ff;
+        }
+
+        h2 {
+            font-size: 2rem;
+            color: #fff;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            border-bottom: 1px dashed #ff00ff;
+            padding-bottom: 0.5rem;
+        }
+
+        p {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            margin-bottom: 1.5rem;
+        }
+
+        ul {
+            margin: 2rem auto;
+            padding: 2rem;
+            border: 1px dashed #ff00ff;
+            border-radius: 12px;
+            display: inline-block;
+            text-align: left;
+            background-color: rgba(255, 0, 255, 0.1);
+            width: 100%;
+            max-width: 600px;
+        }
+
+        li {
+            font-size: 1.2rem;
+            line-height: 2;
+            margin-bottom: 1rem;
+        }
+
+        .highlighted {
+            font-size: 1.4rem;
+            font-weight: bold;
+            color: #ff00ff;
+            text-shadow: 0 0 5px #ff00ff;
+            margin-bottom: 0.5rem;
+            display: block;
+        }
+
+        .description {
+            font-size: 1.2rem;
+            color: #ccc;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 0.75rem 1.5rem;
+            background-color: #ff00ff;
+            color: #000;
+            border-radius: 4px;
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: 700;
+            box-shadow: 0 2px 4px rgba(255, 0, 255, 0.5);
+            transition: background-color 0.3s, box-shadow 0.3s;
+        }
+
+        .button:hover {
+            background-color: #d400d4;
+            box-shadow: 0 4px 8px rgba(255, 0, 255, 0.7);
+        }
+    </style>
 </head>
 <body>
+    <header>
+        <h2>Welcome to the Gonorreia Club</h2>
+    </header>
     <div class="container">
-        <div class="virus" id="virus">
-            <div class="eyes"></div>
-            <div class="mouth"></div>
-        </div>
-        <p class="message" id="message">You are now infected</p>
+        <h1>Where Exclusivity Meets Biology</h1>
+        <p>Are you tired of living an ordinary life? Do you crave membership in a club so exclusive that only the truly special can join? Gonorreia Club is calling your name! Forget mundane achievements; being part of this elite group is a statement. It’s bold. It’s rebellious. It’s… infectious.</p>
+        <h2>The Perks of Membership</h2>
+        <ul>
+            <li>
+                <span class="highlighted">Instant Conversation Starter</span>
+                <span class="description">Mention you’re part of the Gonorreia Club, and watch heads turn. Suddenly, you’re the most interesting person in the room.</span>
+            </li>
+            <li>
+                <span class="highlighted">A Thriving Community</span>
+                <span class="description">Our members connect across borders, creating a truly global and united network.</span>
+            </li>
+            <li>
+                <span class="highlighted">Free Medical Consultations</span>
+                <span class="description">Enjoy exclusive conversations with healthcare professionals and VIP backstage access to modern medicine.</span>
+            </li>
+            <li>
+                <span class="highlighted">No FOMO</span>
+                <span class="description">While others live boring, germ-free lives, you’re thriving on the edge.</span>
+            </li>
+            <li>
+                <span class="highlighted">A Badge of Honor</span>
+                <span class="description">Gonorreia is the ultimate rebellion. Some buy designer clothes; you go viral in your own way.</span>
+            </li>
+        </ul>
+        <h2>What Makes Us Special?</h2>
+        <p>We embrace individuality. We’re not just a support group — we’re a movement. Redefine what it means to “belong” and ooze confidence (among other things).</p>
+        <a href="https://www.google.com/search?q=how+to+have+sex" class="button">Join Now</a>
     </div>
-    <script src="script.js"></script>
+    <footer>
+        <p>&copy; 2025 The Gonorreia Club. All rights reserved.</p>
+    </footer>
 </body>
 </html>
